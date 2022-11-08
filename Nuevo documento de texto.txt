@@ -1,0 +1,41 @@
+1. ¿que es ser autodidacta?
+
+Autodidacta es aquel individuo capaz de aprender algo nuevo 
+sin la ayuda de un mentor o mediante métodos de educación formal, 
+es decir, adquiere este conocimiento utilizando solo sus esfuerzos 
+y capacidades, en parte sobre experiencias de prueba-error.
+https://www.definicionabc.com/general/autodidacta.php
+
+2. ¿que son mmatrices?
+
+Una matriz es un array multidimensional. Se definen igual 
+que los vectores excepto que se requiere un índice por cada dimensión.
+
+Su sintaxis es la siguiente:
+
+tipo nombre [tamaño 1][tamaño 2]...;
+
+EJEMPLO
+	
+/* Matriz bidimensional. */
+
+#include <stdio.h>
+
+main() /* Rellenamos una matriz */
+{
+	int x,i,numeros[3][4];
+	/* rellenamos la matriz */
+	for (x=0;x<3;x++)
+		for (i=0;i<4;i++)
+			scanf("%d",&numeros[x][i]);
+	/* visualizamos la matriz */
+	for (x=0;x<3;x++)
+		for (i=0;i<4;i++)
+			printf("%d",numeros[x][i]);
+}
+
+3. listar 3 fuentes donde aprender a programar
+
+https://www.youtube.com/c/BettaTech
+https://www.youtube.com/c/LaGeekipediaDeErnesto
+https://www.aprenderaprogramar.com
